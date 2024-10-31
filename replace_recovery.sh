@@ -6,6 +6,17 @@
 RED='\033[0;31m'
 YELLOW='\033[1;33m'
 
+# setup stock,twrp and out directory if not exits
+if [ ! -d "stock/" ] && [ ! -d "twrp/" ] && [ ! -d "out/" ]; then
+    echo  -e "${RED}Error: stock, twrp and out directories not found..\n"
+    echo  -e "${YELLOW}..creating ..\n"
+	mkdir -p stock/unpack
+	mkdir -p twrp/unpack
+	mkdir out
+    echo -e  "..done..now copy your stock and twrp vendor_boot images into stock and twrp directory and execute the script again\n"
+    exit 1
+fi
+
 # check vendor_boot.img
 # Stock
 echo -e "Checking stock vendor_boot.img...\n"
