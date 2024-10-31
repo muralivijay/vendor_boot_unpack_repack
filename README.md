@@ -24,3 +24,7 @@ git clone https://github.com/muralivijay/vendor_boot_unpack_repack.git
 - again execute the "replace_recovery.sh".
 - Wait for few seconds it will replace custom recovery ramdisk into stock recovery ramdisk.
 - after script finished . check "out" directory and flash it via fastboot.
+
+
+# Credits
+Magisk - for magiskboot
