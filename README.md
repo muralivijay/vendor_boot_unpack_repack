@@ -8,6 +8,7 @@ your device supports recovery ramdisk on vendor_boot before use this script.
 - stock vendor_boot.img (from which rom are you using.ex: crdroid,lineage.)
 - twrp vendor_boot.img (if you don,t have vendor_boot.img from twrp then compile it first).
 - Linux PC
+- cpio
 
 # How to use 
 First clone it
